@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <ul id="error"></ul>
+  <body>
+    <form action="" id="form">
+      <label for="name" class="block">Imię i nazwisko:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Jan Nowak"
+        class="block"
+      />
+      <label for="email" class="block">Adres email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="jannowak@gmail.com"
+        class="block"
+      />
+      <input type="checkbox" name="agree1" id="agree1" class="inline-block" />
+      <label for="agree1" class="inline-block">Zgoda marketingowa 1</label
+      ><br />
+      <input type="checkbox" name="agree2" id="agree2" class="inline-block" />
+      <label for="agree2" class="inline-block">Zgoda marketingowa 2</label
+      ><br />
+      <input
+        type="checkbox"
+        name="agreeAll"
+        id="agreeAll"
+        class="inline-block"
+      />
+      <label for="agreeAll" class="inline-block">Wszystkie zgody</label>
+
+      <input type="submit" id="submit" value="Zapisz zgody" class="block" />
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
